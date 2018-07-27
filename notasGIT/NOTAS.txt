@@ -1,0 +1,54 @@
+﻿---- NOTAS GIT ---
+
+cuenta de GitHub
+	username: IngLukaFran
+	password: 031093Lukafran
+	e-mail: lukafran0393@gmail.com
+
+	--- Introducción ---
+		- commit -> para almacenar una instantanea del proyecto
+		- un conflicto sucede cuando se altera el mismo archivo tanto en la master como en la rama en la que se esta trabajando 
+
+	--- Comandos utilizados en GIT ---
+
+		git init								-> inicializa un repositorio en una carpeta existente
+
+		git config --global user.name "[nombre]"	-> inicializa el nombre con el cual nos logearemos 
+		git config --global user.email [email]		-> inicializa el email con el cual nos logearemos
+		git --config --list						-> muestra una lista de las variables globales y de sus respectivos valores
+
+		git status								-> muestra un informe detallado de los archivos que han sido modificados y los que ya han sido agregados para el siguiente commit
+		git status -s							-> muestra un informe de los archivos que han sido modificados pero de forma simple y reducida
+		
+		git add .								-> para añadir todos los archivos al siguiente commit
+		git add [archivo]						-> para añadir un archivo en especifico al siguiente commit
+		
+		git log									-> para ver un historial de todos los commits que se han realizado
+		git log --pretty=oneline				-> para visualizar un reporte de todos los commits que se han hecho en una sola linea 
+		git log --pretty=fuller					-> para visualizar un reporte de todos los commits que se han hecho en un informe completo
+		git log --graph							-> pra visualizar commits realizados con una gráfica de ramas
+		git log --stat							-> para visualizar informe detallado de cada commit con los archivos que han sido modificados
+		git log --pretty=oneline --graph		-> visualizar reporte detallado de commit's en un línea con una gráfica de las ramificaciones que se han hecho
+		
+		git diff								-> muestra diferencias 
+		git diff --stat							-> muestra diferencias con status de edición, eliminación, etc.
+
+		git commit								-> abre la interfaz para redactar un comentario al commit, presionando 'i' ingresas un texto, para salir de la interfaz presiona dos veces 'Z'(z mayúscula) o escribiendo ':wq' y presionando ENTER
+		git commit -m "[mensaje]"				-> añade los archivos para subir a server con un mensaje de descripción de cambios realizados
+
+		git reset --soft HEAD~1					-> para deshacer el último commit realizado sin perder los archivos modificados 
+
+		git remote								-> presenta lista de servidores relacionados a la cuenta GIT para subida de información
+		git remote -v							-> presenta lista de servidores relacionados con url
+
+		git push [nombre_servidor_asociado] [nombre_rama_a_subir] -> sube cambios realizados al servidor especificado y a la rama especificada 
+
+
+
+
+
+--- NOTAS GYM -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1er día - biceps y pecho - 4 sets de 12 repticiones por grupo muscular 
+2do día - tricpet y espalda
+3er día - hombro y pierna
+todos lo días - abdomen hasta el fallo
