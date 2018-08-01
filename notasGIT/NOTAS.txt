@@ -5,6 +5,10 @@ cuenta de GitHub
 	password: 031093Lukafran
 	e-mail: lukafran0393@gmail.com
 
+	username: IngLucioChavez
+	password: 031093lukafran
+	e-mail: lucio.chavez031093@gmail.com
+
 	--- Introducción ---
 		- commit -> para almacenar una instantanea del proyecto
 		- un conflicto sucede cuando se altera el mismo archivo tanto en la master como en la rama en la que se esta trabajando 
